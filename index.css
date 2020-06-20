@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    background-image: url(images/dust_scratches.png);
+    font-family:"Microsoft YaHei";
+
+}
+/*页眉*/
+header{    
+    height: 60px;
+    display: block;
+    background-color: transparent;
+   /* background-image: url(images/lineart.png);*/
+}
+
+header img{
+    width: 100%;
+    height: 110px;
+}
+/*导航栏*/
+nav{ 
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white ;
+}
+
+/*内容*/
+.container{
+    
+    height: 1000px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*页脚*/
+footer{
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*超链接*/
+a:link{color:#000000} 
+a:visited{color:#cccccc} 
+a:hover{color:green} 
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*左边栏*/
+.cont{
+    width: 749px;
+    height: 1000px;
+    
+    float: left;
+    
+}
+
+/*右边栏*/
+.intro{
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    float: left;
+    margin-top: 16px;
+}
+
+/*右边栏的列表*/
+aside ul{
+    list-style-type: none;
+    
+}
+
+aside ul li a{
+    background-repeat:no-repeat;
+    background-position:left center;
+    display:block;
+    background-color:#ffffff;
+    line-height:1.7em;
+    margin-right:0px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:22px;
+    color: #666666;
+    font-weight:normal;
+    font-size: 0.8em;
+    text-decoration: none;
+    width:165px;
+    }
+
+
+aside  li a:hover{
+    color: #37210c;
+    background-color:#f7f7f2;
+    }
+
+
+aside .selected{
+    color: #37210c;
+    background-color:#f7f7f2;
+    }
+
+
+/*页眉标题*/
+header h1{
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+nav a{
+    display: inline-block;
+    padding: 3px 20px 3px;
+    line-height: 30px;
+    color: #444;
+    font-size: 14px;
+    border-bottom-color: #fff;
+    
+}
+nav .current{
+    border: 1px solid #ddd;
+    border-bottom-color: #fff;
+}
+
+nav a:hover{
+    border-bottom: 1px solid #ddd;
+}
+
+/*左边栏的内部块*/
+.cont .post{
+    width: 650px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin: 20px;
+    background-color: white;
+
+}
+
+footer .yejiao{
+    font-size: 13px;
+    color: grey;
+}
+
+.inner{
+    margin-top: 40px;
+}
+
+
+
+.post-inner{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*查看更多*/
+.more{
+    width: 70px;
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/*右边栏常用链接*/
+.intro .inner .lianjie{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+.intro .inner .lianjie a{
+    margin: 5px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}

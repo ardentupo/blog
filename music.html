@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>α-Hの杂货铺</title>
+    <link rel="stylesheet" type="text/css" href="music.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/> 
+</head>
+<body>
+    <!--页眉-->
+    <header>
+        <img src="images/lineart.png"  alt="" >  
+    </header>
+    <!--导航栏-->
+    <nav>
+        <div class="menu">
+        <a href="Index.html">首页</a>
+        <a href="note.html">学习笔记</a>
+        <a href="myself.html">关于博主</a>
+        <a href="message.html">留言</a>
+        </div>
+    </nav>
+    <!--文章-->
+    <div class="container">
+        <section class="cont">
+            <div class="post">
+                <div class="post-inner">
+                    <ul>
+                        <li><a href="images/20190702d634e930.png" target="_blank">未闻花名</a></li>
+                        <li><a href="images/20190703524a6083.png" target="_blank">天空之城</a></li>
+                        <li><a href="images/20190702ee76b33b.png" target="_blank">樱花樱花想见你</a></li>
+                        <li><a href="images/201907036ac21b82.png" target="_blank">美丽之物</a></li>
+                        <li><a href="images/2019070370ddf56f.png" target="_blank">宫崎骏组合曲</a></li>
+                        <li><a href="images/201907038f89beae.png" target="_blank">500miles</a></li>
+                        <li><a href="images/20190703aed89243.png" target="_blank">大鱼</a></li>
+                        <li><a href="images/20190703fbffa68a.png" target="_blank">Always with me</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <!--边栏-->
+        <aside class="intro">  
+            <div class="inner">
+                <img src="images/15925854666699.png" width="240" height="180" alt="">
+                <ul>
+                    <li><a href="diary.html" >日志 </a> </li>
+                    <li><a href="album.html">相册 </a></li>
+                    <li><a href="music.html" class="selected">音乐地带 </a></li>
+                    <li><a href="images/IMG_4582(20200620-120956).JPG" target="_blank">微信</a></li>
+                    <li><a href="images/IMG_4583(20200620-121057).PNG" target="_blank">QQ</a></li>
+
+                </ul>
+                <div class="lianjie">
+                    <h4>常用链接：</h4>
+                    <a href="https://www.csdn.net/">CSDN</a>
+                    <a href="https://www.runoob.com/">菜鸟教程</a>
+                    <a href="https://www.bilibili.com/">b站</a>
+                    <br>
+                    <a href="https://github.com/">github</a>
+                    <a href="https://gitee.com/">gitee</a>
+                    <a href="https://next.xuetangx.com/page/jsjxy">学堂在线</a>
+                    <br>
+                    <a href="https://www.icourse163.org/">中国大学mooc</a>
+               </div>
+            </div>
+        </aside>
+    </div>
+    <!--页脚-->
+    <footer>
+        <p class="yejiao">α-Hの杂货铺|design by Liao Faqin</p>
+        <p class="yejiao">time:2020-06</p>
+
+    </footer>
+    <!--导入看板娘脚本文件-->
+    <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+    <script>
+        L2Dwidget.init({
+            // 引用的模型
+            "model": {
+                jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+                "scale": 1
+            },
+            // 模型的样式，可以自行更改
+            "display": {
+                "position": "right",
+                "width":135,
+                "height":180,
+                "hOffset": 0,
+                "vOffset": -20
+            },
+            "mobile": {
+                "show": true,
+                "scale": 0.5
+            },
+            "react": {
+                "opacityDefault": 1,
+                "opacityOnHover": 0.2
+            }
+        });
+    </script>
+</body>
+</html>

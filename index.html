@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>α-Hの杂货铺</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/> 
+</head>
+<body>
+    <!--页眉-->
+    <header>
+        <img src="images/lineart.png"  alt="" >  
+    </header>
+    <!--导航栏-->
+    <nav>
+        <div class="menu">
+        <a class="current" href="Index.html">首页</a>
+        <a href="note.html">学习笔记</a>
+        <a href="myself.html">关于博主</a>
+        <a href="message.html">留言</a>
+        </div>
+    </nav>
+    <!--文章-->
+    <div class="container">
+        <section class="cont">
+            <div class="post">
+                <div class="post-inner">
+                    <h2 class="post-title">开发日志1</h2>
+                    <div class="post-time">2020-06-14</div>
+                    <div class="post-cont">
+                        <p>&nbsp;&nbsp;看了很多人的个人博客，发现有创新的、有简约风的、也有文艺风的、还有些很酷。
+                            思考下来，个人还是更喜欢简约风格一点。创新风格我觉得也是可以尝试的，但自己觉得实力还不够，
+                            或是思路没完全打开</p>
+                    </div>
+                    <div class="more"><a href="diary.html">查看更多》</a></div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-inner">
+                    <h2 class="post-title">开发日志2</h2>
+                    <div class="post-time">2020-06-15</div>
+                    <div class="post-cont">
+                        <p>&nbsp;&nbsp;基本的模块完成背景涂色了，出了一些问题，我发现配色特别的奇怪，想不出有什么好办法能够看的舒服点，
+                            只能一点点调试。找了下一些配色的网站样例，稍微调了调，效果好了一点
+                            </p>
+                    </div>
+                    <div class="more"><a href="diary.html">查看更多》</a></div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-inner">
+                    <h2 class="post-title">开发日志3</h2>
+                <div class="post-time">2020-06-16</div>
+                <div class="post-cont">
+                    <p>&nbsp;&nbsp;开始找素材了，这个感觉挺肝的，一整个下午摸鱼似的，找找停停，没有特别好的灵感，找了几张背景图片
+                        ，自己在纸上乱画一通，内容的话想着放点日记啥的，技术文章、乐谱呀，个人经历上去感觉也还不错，
+                        内容有点杂，感觉有不像博客了，干脆把title改成杂货铺了，感觉好难啊。</p>
+                </div>
+                <div class="more"><a href="diary.html">查看更多》</a></div>
+                </div>
+            </div>
+
+        </section>
+        <!--边栏-->
+        <aside class="intro">  
+            <div class="inner">
+                <img src="images/15925854666699.png" width="240" height="180" alt="">
+                <ul>
+                    <li><a href="diary.html" class="selected">日志 </a> </li>
+                    <li><a href="album.html">相册 </a></li>
+                    <li><a href="music.html">音乐地带 </a></li>
+                    <li><a href="images/IMG_4582(20200620-120956).JPG" target="_blank">微信</a></li>
+                    <li><a href="images/IMG_4583(20200620-121057).PNG" target="_blank">QQ</a></li>
+                </ul>
+                <div class="lianjie">
+                    <h4>常用链接：</h4>
+                    <a href="https://www.csdn.net/">CSDN</a>
+                    <a href="https://www.runoob.com/">菜鸟教程</a>
+                    <a href="https://www.bilibili.com/">b站</a>
+                    <br>
+                    <a href="https://github.com/">github</a>
+                    <a href="https://gitee.com/">gitee</a>
+                    <a href="https://next.xuetangx.com/page/jsjxy">学堂在线</a>
+                    <br>
+                    <a href="https://www.icourse163.org/">中国大学mooc</a>
+               </div>
+            </div>
+        </aside>
+    </div>
+    <!--页脚-->
+    <footer>
+        <p class="yejiao">α-Hの杂货铺|design by Liao Faqin</p>
+        <p class="yejiao">time:2020-06</p>
+
+    </footer>
+    <!--导入看板娘脚本文件-->
+    <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+    <script>
+        L2Dwidget.init({
+            // 引用的模型
+            "model": {
+                jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+                "scale": 1
+            },
+            // 模型的样式，可以自行更改
+            "display": {
+                "position": "right",
+                "width":135,
+                "height":180,
+                "hOffset": 0,
+                "vOffset": -20
+            },
+            "mobile": {
+                "show": true,
+                "scale": 0.5
+            },
+            "react": {
+                "opacityDefault": 1,
+                "opacityOnHover": 0.2
+            }
+        });
+    </script>
+</body>
+</html>
